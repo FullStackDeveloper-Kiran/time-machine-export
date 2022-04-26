@@ -1,0 +1,98 @@
+// PUG reduces the HTML code more than 90% 
+// from 1100 to less than 100 lines
+
+- let sides = '<div class="side"></div><div class="side"></div><div class="side"></div><div class="side"></div><div class="side"></div><div class="side"></div>';
+- let faces = '<div class="face"></div><div class="face"></div><div class="face"></div><div class="face"></div><div class="face"></div><div class="face"></div><div class="face"></div><div class="face"></div><div class="face"></div><div class="face"></div><div class="face"></div><div class="face"></div>';
+.container
+	.counter
+		input(type='checkbox' id='activate')
+		label(for='activate')
+		.lever
+			.crystal
+				- for (var f=0; f<6; f++)
+					.face
+						- for (var d=0; d<4; d++)
+							div
+							
+			.wheel.knob !{faces}				
+			.wheel.knob.top !{faces}		
+			.wheel.knob.top.mid !{faces}	
+			.wheel.chunky.w17 !{faces}		
+		.wheel.p1 !{faces}				
+		.wheel.p2 !{faces}				
+		.wheel.p3 !{faces}				
+		.wheel.p4.year8 !{faces}
+		.wheel.p5.year0 !{faces}
+		.wheel.p6.year1 !{faces}
+		.wheel.p7.year2 !{faces}
+		.wheel.p8.year3 !{faces}
+		.wheel.p9.year4 !{faces}
+		.bigwheel.p10.month !{faces}
+		.wheel.p11.day1 !{faces}
+		.wheel.p12.day2 !{faces}
+		.wheel.axis !{faces}
+		.wheel.axis.front !{faces}
+		.wheel.gear.inside !{faces}
+		.wheel.frontbar !{faces}
+		.wheel.frontbar !{faces}
+		.wheel.frontbar.vert !{faces}
+		.wheel.frontbar.vert !{faces}
+		.wheel.frontbar.vert !{faces}
+		.wheel.frontbar.vert !{faces}
+		.wheel.frontbar.hor !{faces}
+		.wheel.frontbar.hor !{faces}	
+		.cover.right
+		.cover.right.top
+		.cover.right.mid
+		.cover.right.bot
+		.cover.left
+		.cover.left.top
+		.cover.left.mid
+		.cover.left.bot
+		.wheel.chunky.small !{faces}
+		.wheel.chunky.small.w2 !{faces}
+		.wheel.chunky.small.w3 !{faces}
+		.wheel.chunky.small.w4 !{faces}
+		.wheel.chunky.small.w5 !{faces}
+		.wheel.chunky.small.w6 !{faces}
+		.wheel.chunky.small.w7 !{faces}
+		.wheel.chunky.small.w8 !{faces}
+		.wheel.chunky.small.w9 !{faces}
+		.wheel.chunky.small.w10 !{faces}
+		.wheel.chunky.small.w11 !{faces}
+		.wheel.chunky.small.w12 !{faces}
+		.wheel.chunky.big.w13 !{faces}
+		.wheel.chunky.big.w14 !{faces}
+		.wheel.chunky.big.w15 !{faces}
+		.wheel.chunky.big.w16 !{faces}
+		.strap.s1
+		.strap.s2
+		.wheel.cylinder.v1 !{faces}
+			.wheel.piston !{faces}
+		.wheel.cylinder.v2 !{faces}
+			.wheel.piston !{faces}
+		.wheel.cylinder.v3 !{faces}
+			.wheel.piston !{faces}
+		.wheel.cylinder.v4 !{faces}
+			.wheel.piston !{faces}
+		.wheel.cylinder.v5 !{faces}
+			.wheel.piston !{faces}
+		.wheel.cylinder.v6 !{faces}
+			.wheel.piston !{faces}
+		.wheel.cylinder.v7 !{faces}
+			.wheel.piston !{faces}
+		.wheel.cylinder.v8 !{faces}
+			.wheel.piston !{faces}
+		.wheel.cylinder.v9 !{faces}
+			.wheel.piston !{faces}
+		.wheel.cylinder.v10 !{faces}
+			.wheel.piston !{faces}
+		.cuboid.top !{sides}
+		.cuboid.left !{sides}
+		.cuboid.right !{sides}
+		.cuboid.back !{sides}
+		.cuboid.bot !{sides}
+		.cuboid.blackbase !{sides}
+		.cuboid.blackbar !{sides}
+		.wheel.cross !{faces}
+			.wheel.crossed !{faces}
